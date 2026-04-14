@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MS Vending | Premium Vending Services in Houston, TX</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <meta name="description" content="Houston's premier, hassle-free vending machine service. Enjoy top-tier snack and drink management for your location.">
+</head>
+<body>
+    <!-- Navbar -->
+    <header class="navbar">
+        <div class="container">
+            <div class="logo">MS Vending</div>
+            <nav>
+                <a href="#services">Services</a>
+                <a href="#how-it-works">How It Works</a>
+                <a href="#contact" class="btn-sm">Contact Us</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container hero-container">
+            <div class="hero-content">
+                <h1>Elevate Your Space with Premium Vending.</h1>
+                <p>Hassle-free, modern vending solutions tailored for your business in Houston, Texas.</p>
+                <div class="hero-buttons">
+                    <a href="tel:+12817075336" class="btn btn-primary">Call Now</a>
+                    <a href="mailto:Msvending53@gmail.com" class="btn btn-secondary">Email Us</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="images/hero.png" alt="Premium Modern Vending Machine">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="about bg-light">
+        <div class="container text-center">
+            <h2>Houston's Trusted Vending Partner</h2>
+            <p class="subtitle">At MS Vending, we believe your employees and guests deserve the best. As a locally owned and operated business in Houston, we provide top-of-the-line machines stocked with premium snacks and beverages, fully managed so you never have to lift a finger.</p>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2>Our Services</h2>
+                <p>Comprehensive solutions designed for your convenience.</p>
+            </div>
+            <div class="grid cards">
+                <div class="card">
+                    <div class="card-image-wrapper">
+                        <img src="images/restock.png" alt="Machine Placement">
+                    </div>
+                    <h3>Strategic Placement</h3>
+                    <p>We provide brand-new, high-end machines at zero cost to you, securely installed in the optimal location for your facility.</p>
+                </div>
+                <div class="card">
+                    <div class="card-image-wrapper">
+                        <img src="images/snacks.png" alt="Snack and Drink Vending">
+                    </div>
+                    <h3>Curated Selection</h3>
+                    <p>From healthy alternatives to classic favorites, we tailor our snack and drink offerings to match the preferences of your location.</p>
+                </div>
+                <div class="card bg-navy text-white text-center flex-center">
+                    <div>
+                        <h3 class="text-white">Full Management</h3>
+                        <p>We handle all restocking, maintenance, and cleaning. You simply enjoy the convenience without any of the hassle.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Property Owner Benefits -->
+    <section class="benefits bg-light">
+        <div class="container">
+            <div class="benefits-content">
+                <div class="benefits-text">
+                    <h2>No-Hassle Service for Property Owners</h2>
+                    <p>Enhance your location's amenities without adding to your workload. We take pride in proactive maintenance and prompt restocking to ensure a seamless experience for everyone.</p>
+                    <p class="highlight">Revenue-sharing opportunities may be available depending on the location and placement agreement.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section id="how-it-works" class="how-it-works">
+        <div class="container text-center">
+            <div class="section-header">
+                <h2>How It Works</h2>
+            </div>
+            <div class="grid steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <h3>Contact Us</h3>
+                    <p>Reach out to us via phone or email to discuss your location's needs.</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <h3>We Review Location</h3>
+                    <p>We evaluate your space and recommend the perfect vending solution.</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <h3>We Install</h3>
+                    <p>We deliver, install, and stock your machine—completely free of charge.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact text-center bg-navy text-white">
+        <div class="container contact-container">
+            <h2>Ready to Upgrade Your Space?</h2>
+            <p>Get in touch with us today. Whether you have questions or you're ready to get started, we're here to help.</p>
+            <div class="contact-info">
+                <a href="tel:+12817075336" class="contact-link">
+                    <span class="label">Call us directly</span>
+                    <span class="value">281-707-5336</span>
+                </a>
+                <a href="mailto:Msvending53@gmail.com" class="contact-link">
+                    <span class="label">Email us anytime</span>
+                    <span class="value">Msvending53@gmail.com</span>
+                </a>
+            </div>
+            <p class="owner-name">Owned by Ali | Houston, TX</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; <span id="year"></span> MS Vending. All rights reserved.</p>
+            <p>Proudly serving Houston, Texas.</p>
+        </div>
+    </footer>
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
